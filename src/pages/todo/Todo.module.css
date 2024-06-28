@@ -1,0 +1,104 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #7e57c2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  .formContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .inputContainer {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #7e57c2;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .submitButton {
+    background-color: #7e57c2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submitButton:hover {
+    background-color: #6a46a0;
+  }
+  
+  .todoContainer {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .todo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border: 2px solid #7e57c2;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .completedStatus {
+    margin-right: 10px;
+  }
+  
+  .todoLabel {
+    flex: 1;
+    font-size: 16px;
+  }
+  
+  .deleteTodo {
+    background-color: #7e57c2;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .deleteTodo:hover {
+    background-color: #a890d3;
+  }
+  
+  .logoutButton {
+    background-color: #7e57c2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .logoutButton:hover {
+    background-color: #6a46a0;
+  }
+  
+ .userName{
+    font-size:large;
+    font-weight: 500px;
+ }
+  
